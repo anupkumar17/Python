@@ -768,3 +768,53 @@ Hi,Goodafternoon
  Hi,Goodafternoon
 
 
+#DATE:23/08/2022
+
+#ASSIGNMENT NO:05.
+
+#TOPIC: ADVANCE ARGUMENT PASSING IN PYTHON
+
+#Paramarameters and Arguements
+•Parameters are the variables that are defined or used inside parentheses while defining a function
+•Arguments are the value passed for these parameters while calling function•
+
+Example:rguments are the value passed for these parameters while calling function
+def name(name): # name is the parameter
+    print("my name is :", name)
+name("anoop") # 'anoop' is the argument
+
+Output:
+my name is : anoop
+
+#Positional and keyword arguments
+We can pass arguments as positional or keyword arguments. Some benefits of keyword arguments can be: - We can call arguments by their names to make it more clear what they represent - We can rearrange arguments in a way that makes them most readablemeters while calling function
+
+#Example: Positional Arguement
+def student(name,branch,marks):
+  print("Student name:",name,"Branch:",branch,"Obtained Marks:", marks)
+student("Anil","Computer Science",98)  
+
+#Output:
+Student name: Anil Branch: Computer Science Obtained Marks: 98defin
+
+#Example:  
+def Employee(name,id,Company):
+print("Employee name:",name,"Employee id:",id,"currently working in:",Company)
+Employee(Company="TCS",name="Arun",id="23456")  
+Employee("Anil","202567",Company="IBM") 
+ese parameters while calling function
+
+#Default arguments
+Functions can have default arguments with a predefined value. This argument can be left out and the default value is then passed to the function, or the argument 
+can be used with a different value.Note that default arguments must be defined as the last parameters in a function.nside parentheses while defining 
+
+#Example:
+
+def Student(marks,name="Abhi", Branch="Computer Science"):
+  print("Student name is",name ,"I belongs from",Branch,"I obtained",marks,"marks")
+Student(98)
+Student(98,"akash","Information Technology") 
+
+#Output:
+Student name is Abhi I belongs from Computer Science I obtained 98 marks
+Student name is akash I belongs from Information Technology I obtained 98 markse passed for these parameters while calling function
